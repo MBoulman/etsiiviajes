@@ -11,6 +11,7 @@ from .gestor import GestorBasesDatos
 from .utils import imagen_a_bytes
 
 RUTA_MAPA = SALIDA / "mapa.html"
+MAPAS_BASE = {"Callejero": "World_Street_Map", "Satélite": "World_Imagery"}
 
 
 def _popup(titulo: str, lineas: list[str], foto: bytes | None) -> folium.Popup:
@@ -24,7 +25,14 @@ def _popup(titulo: str, lineas: list[str], foto: bytes | None) -> folium.Popup:
 
 def generar_mapa(gestor: GestorBasesDatos, ruta: Path = RUTA_MAPA) -> Path:
     """Crea el HTML del mapa con una capa por actividad y un selector de capas."""
-    mapa = folium.Map(location=[20, 0], zoom_start=2)
+    mapa = folium.Map(location=[20, 0], zoom_start=2, tiles=None)
+    # Mapas base de Esri: funcionan sin clave y también al abrir el HTML como archivo
+    # local (los servidores de OpenStreetMap bloquean las peticiones sin «Referer»).
+    for nombre, servicio in MAPAS_BASE.items():
+        folium.TileLayer(
+            tiles=f"https://server.arcgisonline.com/ArcGIS/rest/services/{servicio}/MapServer/tile/{{z}}/{{y}}/{{x}}",
+            attr="Tiles &copy; Esri", name=nombre, max_zoom=18,
+        ).add_to(mapa)
     buceo = folium.FeatureGroup(name="Puntos de buceo")
     esqui = folium.FeatureGroup(name="Puntos de esquí")
 

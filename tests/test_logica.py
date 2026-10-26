@@ -132,3 +132,14 @@ def test_base_demo_y_estadisticas(tmp_path):
 def test_dni_con_letra_incorrecta_no_pasa_como_pasaporte():
     assert not validar_documento("12345678A")
     assert validar_documento("12345678Z")
+
+
+def test_mapa_usa_mapas_base_sin_bloqueo(tmp_path):
+    from etsiiviajes.config import CATALOGO_DB
+    from etsiiviajes.mapa import generar_mapa
+    if not CATALOGO_DB.exists():
+        pytest.skip("falta datos/catalogo.db")
+    with GestorBasesDatos(CATALOGO_DB) as g:
+        html = generar_mapa(g, tmp_path / "mapa.html").read_text(encoding="utf-8")
+    assert "server.arcgisonline.com" in html
+    assert "tile.openstreetmap.org" not in html
