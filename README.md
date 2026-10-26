@@ -91,10 +91,10 @@ Las pruebas cubren las reservas (stock insuficiente sin cambios parciales), las 
 - Pruebas automáticas, `requirements.txt` y datos de demostración ficticios.
 
 ## Autores
-
+- Mohamed Boulman Mokhlis ([www.mboulman.com](https://www.mboulman.com) · [mboulman.es](https://mboulman.es))
 - Sofía Veldman Paniego
 - Juan del Junco Sampol
-- Mohamed Boulman Mokhlis ([www.mboulman.com](https://www.mboulman.com) · [mboulman.es](https://mboulman.es))
+
 
 ## Imágenes
 
