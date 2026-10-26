@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Datos de trabajo: se generan al arrancar con clientes inventados
+datos/etsiiviajes.db
+datos/*.db-journal
+
+# Archivos que genera la aplicación (facturas, PDF y mapa)
+salida/
+
+# Credenciales y configuración local
+.env
+client_secret*.json
+*.pem
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
