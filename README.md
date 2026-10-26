@@ -34,7 +34,7 @@ Python 3.10+, Tkinter y tkcalendar (interfaz), SQLite (datos), pandas, scikit-le
 ## Instalación y uso
 
 ```bash
-git clone https://github.com/<tu-usuario>/etsiiviajes.git
+git clone https://github.com/MBoulman/etsiiviajes.git
 cd etsiiviajes
 python -m venv .venv
 # Windows: .venv\Scripts\activate   ·   macOS/Linux: source .venv/bin/activate
