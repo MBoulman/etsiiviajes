@@ -39,6 +39,10 @@ SECCIONES = {
     "AGENDA": (
         "Registra cursos y competiciones en un día y una hora. Los eventos se guardan en la base "
         "de datos y se ven al seleccionar el día en el calendario."),
+    "ACERCA DE": (
+        "ETSIIVIAJES es el trabajo final de Programación en Python (ETSII-UPM, curso 2023-24), "
+        "revisado en 2026. Autores: Sofía Veldman Paniego, Juan del Junco Sampol y Mohamed "
+        "Boulman Mokhlis.\n\nMás proyectos en www.mboulman.com y mboulman.es"),
 }
 
 

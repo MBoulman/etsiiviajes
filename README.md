@@ -4,6 +4,8 @@ Aplicación de escritorio en Python para gestionar una agencia de turismo de **b
 
 Es el trabajo final de la asignatura **Programación en Python** del Grado en Ingeniería en Tecnologías Industriales (ETSII-UPM), curso 2023-24, revisado y reorganizado en 2026 para publicarlo.
 
+Más proyectos en **[www.mboulman.com](https://www.mboulman.com)** · **[mboulman.es](https://mboulman.es)**.
+
 ![Ventana principal](docs/capturas/principal.jpg)
 
 <!-- Vídeo de demostración: añade aquí el enlace, p. ej. [Ver el vídeo (1:30)](https://youtu.be/...) -->
@@ -92,7 +94,7 @@ Las pruebas cubren las reservas (stock insuficiente sin cambios parciales), las 
 
 - Sofía Veldman Paniego
 - Juan del Junco Sampol
-- Mohamed Boulman Mokhlis ([mboulman.com](https://mboulman.com))
+- Mohamed Boulman Mokhlis ([www.mboulman.com](https://www.mboulman.com) · [mboulman.es](https://mboulman.es))
 
 ## Imágenes
 

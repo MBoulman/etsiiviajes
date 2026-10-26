@@ -3,6 +3,16 @@ name = "etsiiviajes"
 version = "2.0.0"
 description = "Aplicación de escritorio para gestionar una agencia de buceo y esquí (Tkinter + SQLite)"
 requires-python = ">=3.10"
+authors = [
+    {name = "Mohamed Boulman Mokhlis"},
+    {name = "Sofía Veldman Paniego"},
+    {name = "Juan del Junco Sampol"},
+]
+
+[project.urls]
+Homepage = "https://www.mboulman.com"
+"Web (ES)" = "https://mboulman.es"
+Repository = "https://github.com/MBoulman/etsiiviajes"
 
 [tool.pytest.ini_options]
 pythonpath = ["."]
