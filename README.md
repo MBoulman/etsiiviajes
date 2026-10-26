@@ -8,7 +8,7 @@ Más proyectos en **[www.mboulman.com](https://www.mboulman.com)** · **[mboulma
 
 ![Ventana principal](docs/capturas/principal.jpg)
 
-<!-- Vídeo de demostración: añade aquí el enlace, p. ej. [Ver el vídeo (1:30)](https://youtu.be/...) -->
+▶️ **[Ver el vídeo de presentación (1:30)](https://youtu.be/6E6xAiBmt2w)**
 
 ## Qué hace
 
