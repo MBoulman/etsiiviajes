@@ -2,7 +2,7 @@
 
 Aplicación de escritorio en Python para gestionar una agencia de turismo de **buceo y esquí**: clientes, inventario de material por país, reservas y devoluciones, facturas en PDF, un mapa mundial con 141 puntos de buceo y esquí, una base de datos de 58 especies marinas y un panel de estadísticas con *machine learning*.
 
-Es el trabajo final de la asignatura **Programación en Python** del Grado en Ingeniería en Tecnologías Industriales (ETSII-UPM), curso 2023-24, revisado y reorganizado en 2026 para publicarlo.
+Es el trabajo final de la asignatura **Programación en Python** del Grado en Ingeniería en Tecnologías Industriales (ETSII-UPM), curso 2023-24, hecho en equipo por **Mohamed Boulman Mokhlis**, **Sofía Veldman Paniego** y **Juan del Junco Sampol**, y revisado y reorganizado en 2026 para publicarlo.
 
 Más proyectos en **[www.mboulman.com](https://www.mboulman.com)** · **[mboulman.es](https://mboulman.es)**.
 
@@ -91,10 +91,14 @@ Las pruebas cubren las reservas (stock insuficiente sin cambios parciales), las 
 - Pruebas automáticas, `requirements.txt` y datos de demostración ficticios.
 
 ## Autores
-- Mohamed Boulman Mokhlis ([www.mboulman.com](https://www.mboulman.com) · [mboulman.es](https://mboulman.es))
-- Sofía Veldman Paniego
-- Juan del Junco Sampol
 
+Trabajo en equipo (Equipo D, Programación en Python, ETSII-UPM, curso 2023-24):
+
+- **Mohamed Boulman Mokhlis**, coautor y autor de la revisión de 2026 ([www.mboulman.com](https://www.mboulman.com) · [mboulman.es](https://mboulman.es))
+- **Sofía Veldman Paniego**, coautora
+- **Juan del Junco Sampol**, coautor
+
+Si eres coautor y quieres cambiar cómo apareces o prefieres no aparecer, abre un *issue* o escríbeme desde [www.mboulman.com](https://www.mboulman.com).
 
 ## Imágenes
 
